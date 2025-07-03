@@ -19,6 +19,60 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
+          <Route
+            path="/menu"
+            element={
+              <div className="p-8 text-center">Menu Page - Coming Soon</div>
+            }
+          />
+          <Route
+            path="/locations"
+            element={
+              <div className="p-8 text-center">
+                Locations Page - Coming Soon
+              </div>
+            }
+          />
+          <Route
+            path="/about"
+            element={
+              <div className="p-8 text-center">About Us Page - Coming Soon</div>
+            }
+          />
+          <Route
+            path="/franchise"
+            element={
+              <div className="p-8 text-center">
+                Franchise Opportunities Page - Coming Soon
+              </div>
+            }
+          />
+          <Route
+            path="/conversion"
+            element={
+              <div className="p-8 text-center">
+                Conversion Opportunities Page - Coming Soon
+              </div>
+            }
+          />
+          <Route
+            path="/events"
+            element={
+              <div className="p-8 text-center">Events Page - Coming Soon</div>
+            }
+          />
+          <Route
+            path="/pub-club"
+            element={
+              <div className="p-8 text-center">Pub Club Page - Coming Soon</div>
+            }
+          />
+          <Route
+            path="/contact"
+            element={
+              <div className="p-8 text-center">Contact Page - Coming Soon</div>
+            }
+          />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

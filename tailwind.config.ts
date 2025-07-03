@@ -57,6 +57,13 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        // Mr. Brews Taphouse brand colors
+        brew: {
+          brown: "hsl(var(--brew-brown))",
+          copper: "hsl(var(--brew-copper))",
+          beige: "hsl(var(--brew-beige))",
+          charcoal: "hsl(var(--brew-charcoal))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
